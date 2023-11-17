@@ -9,57 +9,6 @@
         <title>
             <?php echo $ttl ." - ". "Quem somos"; ?>
         </title>
-        <style>
-            .foto-abreu {
-                position: relative;
-                height: 600px;
-            }
-            
-            .foto-abreu img {
-                width: 80%;
-                position: absolute;
-                bottom: -130px;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-            }
-            
-            @media screen and (max-width: 975px) {
-                .foto-abreu img {
-                    bottom: -270px;
-                }
-            }
-            
-            @media screen and (max-width: 845px) {
-                .quem-somos .md-6 {
-                    width: 100%;
-                }
-                .foto-abreu img {
-                    bottom: -100px;
-                    width: 60%;
-                }
-            }
-            
-            @media screen and (max-width: 640px) {
-                .foto-abreu {
-                    height: 450px;
-                }
-                .foto-abreu img {
-                    width: 100%;
-                    height: 450px;
-                    object-fit: contain;
-                    bottom: -50px;
-                }
-            }
-        </style>
-        <script>
-            $(document).ready(function() {
-                $('html, body').animate({
-                    scrollTop: 400
-                }, 900);
-            });
-        </script>
 </head>
 
 <body>
@@ -67,30 +16,36 @@
         <?php
             include('core/mod_topo/topo.php');
          ?>
-            <div class="banner-servicos"></div>
+        
     </header>
 
     <main>
-        <div class="linha servicos quem-somos" style="margin-bottom: -40px;">
+        <div class="linha">
             <div class="colunas lg-6 md-6 pq-12">
                 <h2>
                     Quem somos
                 </h2>
-                <p>Liderado por Lucas Abreu, somos a Abreu Empresarial.</p>
-                <p>Acreditamos ser possível, por meio de estudo e dedicação, alcançar objetivos e o sucesso. Nós nos orgulhamos de ser uma empresa que conta com contadores profissionais e gabaritados para cuidar dos seus negócios.
-                    <p>Dentro das possibilidades amplas em que trabalhamos, temos satisfação em atender cada empresário que chega necessitando do nosso apoio e consultoria. Para nós, isto é realização profissional e pessoal.
-                        <p>Há anos demos o nosso primeiro passo, e hoje estamos consolidados na área contábil. Cada cliente, que por aqui chega, é o mesmo sentimento de força de vontade que tínhamos no começo. Cada etapa vencida, para nós, é mais um degrau
-                            subido na escada do sucesso. É este o sentimento representado em nossos parceiros.
-                            <p>Especializados nos mais diversos serviços de contabilidade, hoje, temos consolidado, também, a confiança em um mercado de acordos empresariais.
+                <p>
+                Somos um escritório com mais de 30 anos, fundado pelo doutor Jurandir de Sousa Oliveira para seus 3 filhos. Contamos com diversos especialistas na prática do Direito, focados em Direito Civil, Direito Penal, Direito Empresarial, estendendo consultorias para outras áreas.
+                </p>
+                <p>
+                Nosso escritório não parou no tempo e está sempre em busca de inovações para atender seu caso da melhor forma. Acreditamos que todo caso merece total empenho e dedicação.
+                </p>
+                <p>
+                A Sousa Oliveira Advogados é uma empresa familiar que zela pelo seu nome, se esforçando ao máximo para entregar a justiça que você merece. Afinal, “o fim do direito é a paz, o meio de atingi-lo, a luta” já dizia Rudolf Von Ihering. Um trabalho que exala primor e zelo que só um negócio que atravessou gerações pode oferecer.
+                </p>
+                <p>
 
+                </p>
             </div>
             <div class="colunas lg-6 md-6 pq-12">
-                <div class="foto-abreu">
-                    <img src="core/imagens/abreu.jpg" alt="Lucas Abreu" title="Lucas Abreu">
-                </div>
+                    <img src="core/imagens/logo.png" alt="<?=$ttl?>" title="<?=$ttl?>" style="height: 150px; object-fit: contain; width: 100%">
+               
             </div>
         </div>
+        <section class="section-form">
         <?php include('formulario.php') ?>
+        </section>
     </main>
 
     <?php include('core/mod_rodape/rodape.php') ?>

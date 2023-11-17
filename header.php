@@ -1,4 +1,7 @@
-<base href="http://localhost/sousa-oliveira/" />
+<?php 
+$ttl = 'Sousa Oliveira';
+?>
+<base href="http://localhost/sousa_oliveira/" />
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
 <meta http-equiv="Content-Language" content="pt-br">
 
@@ -8,7 +11,7 @@
 <meta property="" content="" />
 <meta property="og:locale" content="pt_BR" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Abreu Contabilidade" />
+<meta property="og:title" content="<?=$ttl?>" />
 <meta property="og:description" content="" />
 <meta property="og:url" content="" />
 <meta property="og:image" content="">
@@ -31,17 +34,6 @@
 <!-- <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> -->
 <script src="https://kit.fontawesome.com/650f618ca2.js" crossorigin="anonymous"></script>
 <script src="core/mod_includes/js/movimento-seta.js"></script>
-
-
-<!-- INCLUDES PHP -->
-<?php
-setlocale(LC_ALL, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-date_default_timezone_set('America/Sao_Paulo');
-require_once("core/mod_includes/php/ctracker.php");
-require_once("core/mod_includes/php/parametros.php");
-include('core/mod_includes/php/connect.php');
-$ttl = "Abreu Contabilidade";
-?>
 
     <div class="wp">
         <a href="https://api.whatsapp.com/send?phone=5511951702971&text=Abreu Contabilidade" onclick="gtag('event','Click', {'event_category':'WhatsAppMe','event_label':'Whatsapp','value':0});" target="_blank" rel="noopener noreferrer">

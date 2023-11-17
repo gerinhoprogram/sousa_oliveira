@@ -453,12 +453,6 @@ textarea:focus {
     margin: 20px 0px 50px 0px;
 }
 
-.calculadora {
-    position: relative;
-    height: 400px;
-    padding: 0px !important;
-}
-
 .formulario label {
     color: #2E4052;
     font-family: 'Inter';
@@ -466,6 +460,10 @@ textarea:focus {
 
 .formulario input{
     background-color: #ECEFF1;
+}
+
+.section-form{
+    padding-top: 60px; padding-bottom: 60px
 }
 
 

@@ -79,9 +79,9 @@
                 </div>
         </section>
 
-        <SECtion class="section-form" style="padding-top: 60px; padding-bottom: 60px">
+        <section class="section-form">
         <?php include('formulario.php') ?>
-        </SECtion>
+        </section>
 
         
     </main>
