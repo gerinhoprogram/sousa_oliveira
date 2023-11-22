@@ -9,7 +9,7 @@ RewriteEngine On
 #PÁGINAS SIMPLES
 RewriteRule ^home/?$ index.php? [NC]
 RewriteRule ^quem-somos/?$ quem-somos.php?p=$1 [NC]
-RewriteRule ^areas-de-atuacao/?$ areas-de-atuacao.php?p=$1 [NC]
+RewriteRule ^areas-de-atuacao/?([a-zA-Z0-9-–]+)?/?$ areas-de-atuacao.php?p=$1 [NC,L]
 RewriteRule ^nossos-profissionais/?([a-zA-Z0-9-–]+)?/?$ nossos-profissionais.php?p=$1 [NC,L]
 RewriteRule ^contato/?$ contato.php?p=$1 [NC]
 RewriteRule ^envia-contato/?$ envia-contato.php?p=$1 [NC]

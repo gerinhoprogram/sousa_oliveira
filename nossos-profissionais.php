@@ -7,7 +7,7 @@
     include('header.php');
     ?>
     <title>
-        <?php echo $ttl . " - " . "Quem somos"; ?>
+        <?php echo $ttl . " - " . "Nossos profissionais"; ?>
     </title>
 </head>
 
@@ -18,21 +18,7 @@
         ?>
 
         <style>
-            .advogados {
-                text-align: center;
-
-            }
-
-            .advogados h5 {
-                font-size: 20pt
-            }
-
-            .advogados img{
-                height: 110px;
-                object-fit: contain;
-                width: 100%;
-                margin-top: 30px;
-            }
+           
         </style>
 
     </header>
@@ -41,49 +27,31 @@
         <div class="linha">
             <div class="colunas lg-12 md-12 pq-12">
                 <h2>
-                    Quem somos
+                    Conheça nossos profissionais
                 </h2>
+                <h5>Dr.  Jurandir de Sousa Oliveira</h5>
                 <p>
-                    Somos um escritório com mais de 30 anos, fundado pelo doutor Jurandir de Sousa Oliveira para seus 3 filhos. Contamos com diversos especialistas na prática do Direito, focados em Direito Civil, Direito Penal, Direito Empresarial, estendendo consultorias para outras áreas.
+                Sua primeira formação foi em Ciências Econômicas pela Fundação Álvares Penteado, em 1967, mas sua paixão e vocação para a justiça o levaram para a Faculdade de Direito de Guarulhos (FIG). Nesta instituição, concluiu seu curso em 1971. Desde então, seu currículo só aumentava seu prestígio, tanto no setor privado quanto no público, chegando a ocupar o cargo de Juiz de Direito Substituto e, até mesmo, Desembargador no Tribunal de Justiça de São Paulo; sem contar as experiências na docência como professor universitário na FMU, UNIP, UNICAPITAL e EPM.
+Sem sombras de dúvidas, nosso profissional está pronto para atender seu caso da melhor maneira possível!
+
+                </p>
+                <hr>
+                <h5>
+                Dr. Jurandir de Sousa Oliveira Filho
+                </h5>
+                <p>
+                Seguindo os passos da sua maior referência, e com grande ambição pela justiça, o Dr. Jurandir Filho começou sua vida jurídica no Centro Universitário das Faculdades Metropolitanas Unidas - FMU. Mesmo antes de concluir seu curso, em 2000, atuava na área como conciliador no Juizado Especial Cível, estagiário na Marinelli Advogados Associados, assistente jurídico na Milen & Richieri Advocacia; todas estas experiências o proporcionaram um imenso conhecimento e expertise nessas áreas do Direito.
+
                 </p>
                 <p>
-                    Nosso escritório não parou no tempo e está sempre em busca de inovações para atender seu caso da melhor forma. Acreditamos que todo caso merece total empenho e dedicação.
-                </p>
-
-                <p>
-                    A Sousa Oliveira Advogados é uma empresa familiar que zela pelo seu nome, se esforçando ao máximo para entregar a justiça que você merece. Afinal, “o fim do direito é a paz, o meio de atingi-lo, a luta” já dizia Rudolf Von Ihering. Um trabalho que exala primor e zelo que só um negócio que atravessou gerações pode oferecer.
-
+                <b>Além destes talentos, temos outros profissionais especializados em diferentes práticas para atender as necessidades apresentadas.
+</b>
                 </p>
             </div>
 
         </div>
 
-        <div class="linha advogados">
-            <h5>
-                Advogados especialistas em diversos campos de atuação
-            </h5>
-          
-            <div class="colunas lg-2 md-12 pq-12">&nbsp;</div>
-            <div class="colunas lg-4 md-6 pq-12">
-
-                <img src="core/imagens/logo.png" alt="<?= $ttl ?>" title="<?= $ttl ?>">
-                <p>
-                    Jurandir de Sousa Oliveira
-                </p>
-                <div class="btn">Confira o curriculo</div>
-
-            </div>
-            <div class="colunas lg-4 md-6 pq-12">
-
-                <img src="core/imagens/logo.png" alt="<?= $ttl ?>" title="<?= $ttl ?>">
-                <p>
-                    Jurandir de Sousa Oliveira Filho
-                </p>
-                <div class="btn">Confira o curriculo</div>
-            </div>
-            <div class="colunas lg-2 md-12 pq-12">&nbsp;</div>
-            
-        </div>
+     
 
         <section class="section-form">
             <?php include('formulario.php') ?>

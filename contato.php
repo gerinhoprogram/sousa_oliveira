@@ -4,39 +4,26 @@
 
 <head>
     <?php
-        include('header.php'); 
-        $pagina = 'contato';
+    include('header.php');
     ?>
-        <title>
-            <?php echo $ttl ." - ". "Contato"; ?>
-        </title>
-        <script>
-            $(document).ready(function() {
-                $('html, body').animate({
-                    scrollTop: 400
-                }, 900);
-            });
-        </script>
+    <title>
+        <?php echo $ttl . " - " . "Contato"; ?>
+    </title>
 </head>
 
 <body>
     <header>
         <?php
-            include('core/mod_topo/topo.php');
+        include('core/mod_topo/topo.php');
         ?>
-        <div class="banner-servicos"></div>
+
     </header>
 
     <main>
-        <div class="linha servicos">
-            <div class="colunas lg-12 md-12 pq-12">
-                <h2>
-                    Contato
-                </h2>
-                <?php include('formulario.php') ?>
-            </div>
-        </div>
-        
+
+        <section class="section-form">
+            <?php include('formulario.php') ?>
+        </section>
     </main>
 
     <?php include('core/mod_rodape/rodape.php') ?>

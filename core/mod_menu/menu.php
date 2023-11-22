@@ -8,8 +8,8 @@
             <a href='contato' target="_parent" title="Contato">Contato</a>
         </li>
         <li>
-            <a href='quem-somos' target="_parent" title="Quem somos" class='toggle submenu'>Áreas de atuação</a>
-            <a href='quem-somos' target="_parent" title="Quem somos">Áreas de atuação</a>
+            <a href='areas-de-atuacao' target="_parent" title="Áreas de atuação" class='toggle submenu'>Áreas de atuação</a>
+            <a href='areas-de-atuacao' target="_parent" title="Áreas de atuação">Áreas de atuação</a>
         </li>
         <li>
             <a href='nossos-profissionais' target="_parent" title="Nossos profissionais" class='toggle submenu'>Nossos profissionais</a>

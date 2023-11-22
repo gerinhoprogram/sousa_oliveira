@@ -23,12 +23,8 @@
 
             }
 
-            .advogados h5 {
-                font-size: 20pt
-            }
-
-            .advogados img{
-                height: 110px;
+            .advogados img {
+                height: 80px;
                 object-fit: contain;
                 width: 100%;
                 margin-top: 30px;
@@ -62,27 +58,30 @@
             <h5>
                 Advogados especialistas em diversos campos de atuação
             </h5>
-          
+
             <div class="colunas lg-2 md-12 pq-12">&nbsp;</div>
             <div class="colunas lg-4 md-6 pq-12">
 
-                <img src="core/imagens/logo.png" alt="<?= $ttl ?>" title="<?= $ttl ?>">
-                <p>
-                    Jurandir de Sousa Oliveira
-                </p>
-                <div class="btn">Confira o curriculo</div>
-
+                <div style="border: 1px solid #2E4052; padding-bottom: 25px">
+                    <img src="core/imagens/logo.png" alt="<?= $ttl ?>" title="<?= $ttl ?>">
+                    <p>
+                        Jurandir de Sousa Oliveira
+                    </p>
+                    <div class="btn">Confira o curriculo</div>
+                </div>
             </div>
             <div class="colunas lg-4 md-6 pq-12">
 
-                <img src="core/imagens/logo.png" alt="<?= $ttl ?>" title="<?= $ttl ?>">
-                <p>
-                    Jurandir de Sousa Oliveira Filho
-                </p>
-                <div class="btn">Confira o curriculo</div>
+                <div style="border: 1px solid #2E4052; padding-bottom: 25px">
+                    <img src="core/imagens/logo.png" alt="<?= $ttl ?>" title="<?= $ttl ?>">
+                    <p>
+                        Jurandir de Sousa Oliveira Filho
+                    </p>
+                    <div class="btn">Confira o curriculo</div>
+                </div>
             </div>
             <div class="colunas lg-2 md-12 pq-12">&nbsp;</div>
-            
+
         </div>
 
         <section class="section-form">
