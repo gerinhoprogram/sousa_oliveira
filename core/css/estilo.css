@@ -27,6 +27,15 @@ html {
     transition: 0.5s;
 }
 
+.btn{
+    display: table; border: 1px #1B2930 solid; padding: 15px; margin: 0 auto
+}
+
+.btn:hover{
+    background-color: #1B2930;
+    color: #fff;
+    cursor: pointer;
+}
 a {
     text-decoration: none;
     color: #1B2930;

@@ -27,7 +27,7 @@
                     Advogados especialistas em diversos campos de atuação
                     </h2>
                     <div style="text-align: center">
-                    <div style="display: table; border: 1px #1B2930 solid; padding: 15px; margin: 0 auto">Confira o currurículo dos profissionais</div>
+                    <div class="btn">Confira o currurículo dos profissionais</div>
                     </div>
                     
                 </div>

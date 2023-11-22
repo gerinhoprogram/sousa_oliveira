@@ -12,8 +12,8 @@
             <a href='quem-somos' target="_parent" title="Quem somos">Áreas de atuação</a>
         </li>
         <li>
-            <a href='quem-somos' target="_parent" title="Quem somos" class='toggle submenu'>Nossos profissionais</a>
-            <a href='quem-somos' target="_parent" title="Quem somos">Nossos profissionais</a>
+            <a href='nossos-profissionais' target="_parent" title="Nossos profissionais" class='toggle submenu'>Nossos profissionais</a>
+            <a href='nossos-profissionais' target="_parent" title="Nossos profissionais">Nossos profissionais</a>
         </li>
         <li>
             <a href='quem-somos' target="_parent" title="Quem somos" class='toggle submenu'>Quem somos</a>
