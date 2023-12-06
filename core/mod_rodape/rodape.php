@@ -55,12 +55,12 @@
             
         </div> -->
         <div class="colunas lg-4 md-12 pq-12" style="text-align: center;">
-        <img src="core/imagens/logo2.png" alt="Abreu Contabilidade" title="Abreu Contabilidade">
+        <img src="core/imagens/logo.png" alt="Abreu Contabilidade" title="Abreu Contabilidade" style="object-fit: contain; height: 200px; width: 100%">
         </div>
     </div>
     
     <div class="direitos-reservados">
-        <div class='colunas lg-12' style="text-align: center; color: #fff; line-height: 14pt;">
+        <div class='colunas lg-12' style="text-align: center; color: #2E4052; line-height: 14pt;">
             ©
             <?php echo date('Y'); ?> Copyright - Todos os direitos reservados
         </div>

@@ -198,13 +198,14 @@ textarea:focus {
 .linha-azul {
     padding-top: 20px;
     padding-bottom: 13px;
-    background-color: #2E4052;
+    background-color: #fff;
 }
 
 .linha-branca {
     padding: 10px 0px 10px 0px;
     font-family: 'Inter';
-    background-color: #ECEFF1;
+    background-color: #2E4052;
+    color: #fff;
 }
 
 .linha-branca .colunas {
@@ -213,7 +214,7 @@ textarea:focus {
 }
 
 .linha-branca i {
-    color: #2E4052
+    color: #fff
 }
 
 
@@ -376,7 +377,7 @@ textarea:focus {
 }
 
 .box h3{
-    color: #fff
+    color: #2E4052
 }
 
 .box {
@@ -391,7 +392,7 @@ textarea:focus {
     cursor: pointer;
     position: relative;
     margin-bottom: 30px;
-    background: #2E4052
+    background: #fff
 }
 
 .icone-servico {
@@ -401,35 +402,35 @@ textarea:focus {
     background-position: center;
 }
 
-.box .direito-civil {
+.box:hover .direito-civil {
     background-image: url(../imagens/direito-civil.png);
 }
 
-.box:hover .direito-civil {
+.box .direito-civil {
     background-image: url(../imagens/direito-civil-azul.png);
 }
 
-.box .direito-penal {
+.box:hover .direito-penal {
     background-image: url(../imagens/direito-penal.png);
 }
 
-.box:hover .direito-penal {
+.box .direito-penal {
     background-image: url(../imagens/direito-penal-azul.png);
 }
 
-.box .direito-empresarial {
+.box:hover .direito-empresarial {
     background-image: url(../imagens/direito-empresarial.png);
 }
 
-.box:hover .direito-empresarial {
+.box .direito-empresarial {
     background-image: url(../imagens/direito-empresarial-azul.png);
 }
 
-.box .outras-areas {
+.box:hover .outras-areas {
     background-image: url(../imagens/outras-areas.png);
 }
 
-.box:hover .outras-areas {
+.box .outras-areas {
     background-image: url(../imagens/outras-areas-azul.png);
 }
 
@@ -441,15 +442,15 @@ textarea:focus {
 }
 
 .box:hover {
-    background-color: #fff;
+    background-color: #2E4052;
 }
 
 .box:hover p {
-    color: #2E4052
+    color: #fff
 }
 
 .box:hover h3 {
-    color: #2E4052
+    color: #fff
 }
 
 
@@ -533,13 +534,13 @@ textarea:focus {
 
 footer {
     padding: 50px 0px 50px 0px;
-    background-color: #2E4052;
+    background-color: #fff;
     margin-top: -25px;
     position: relative;
 }
 
 footer p {
-    color: #fff;
+    color: #2E4052;
     padding: 0px;
     margin: 0 0 20px 0;
     font-family: 'Inter';
@@ -556,6 +557,7 @@ footer p {
     width: 100%;
     text-align: center;
     font-size: 12pt;
+    color: #2E4052
 }
 
 .direitos-reservados img {
@@ -566,7 +568,7 @@ footer p {
 }
 
 footer i {
-    color: #ffff;
+    color: #2E4052;
 }
 
 .footer-redes i{
