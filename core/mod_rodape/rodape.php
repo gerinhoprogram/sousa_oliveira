@@ -14,7 +14,7 @@
 <footer>
     <div class="linha footer-informacoes">
         <div class="colunas lg-4 md-6 pq-12 menus">
-            <a href="index" title="Home" target="_parent">
+            <a href="home" title="Home" target="_parent">
                 <p>Home</p>
             </a>
             <a href="quem-somos" title="Quem somos" target="_parent">
@@ -31,18 +31,18 @@
             </a>
         </div>
         <div class="colunas lg-4 md-6 pq-12 contatos-rodape">
-            <p><i class="fab fa-whatsapp"></i>&nbsp;&nbsp; (11) xxxx-xxxx</p>
+            <!-- <p><i class="fab fa-whatsapp"></i>&nbsp;&nbsp; (11) xxxx-xxxx</p> -->
             <p><i class="fas fa-phone-alt"></i>&nbsp;&nbsp; (11) 11 5573-2096</p>
-            <a href='mailto:sousaoliveiraadc@uol.com.brv' target='_blank' rel='noreferrer' title='sousaoliveiraadc@uol.com.brv'>
-                <p><i class="far fa-envelope"></i>&nbsp;&nbsp; sousaoliveiraadc@uol.com.brv</p>
+            <a href='mailto:sousaoliveiraadv@uol.com.br' target='_blank' rel='noreferrer' title='sousaoliveiraadv@uol.com.br'>
+                <p><i class="far fa-envelope"></i>&nbsp;&nbsp; sousaoliveiraadv@uol.com.br</p>
             </a>
             <p>
-            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Av. Lins de VAsconcelos, 3282<br> Cj. e 15 - Vila Mariana - SP
+            <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Av. Lins de Vasconcelos, 3282<br> Cj. 11 e 15 - Vila Mariana - SP
             </p>
             
         </div>
 
-        <div class="colunas lg-1 md-3 pq-2 footer-redes" style="border-left: 1px solid #fff">
+        <!-- <div class="colunas lg-1 md-3 pq-2 footer-redes" style="border-left: 1px solid #fff">
             <p>
             <i class="fab fa-facebook-square"></i>
             </p>
@@ -53,8 +53,8 @@
             <i class="fab fa-linkedin"></i>
             </p>
             
-        </div>
-        <div class="colunas lg-3 md-8 pq-8" style="text-align: center">
+        </div> -->
+        <div class="colunas lg-4 md-12 pq-12" style="text-align: center;">
         <img src="core/imagens/logo2.png" alt="Abreu Contabilidade" title="Abreu Contabilidade">
         </div>
     </div>

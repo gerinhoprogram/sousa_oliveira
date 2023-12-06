@@ -7,7 +7,7 @@
         <div class="colunas lg-12 text-center">
             <h4>
                 Deixe seu contato e sua mensagem<br>
-                para o nosso time de especialistas
+                para os nossos especialistas
             </h4>
             <p>Preencha os campos abaixo.</p>
         </div>

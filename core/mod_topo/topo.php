@@ -1,7 +1,13 @@
 <div class="linha-branca">
     <div class='linha'>
         <div class="colunas lg-12 md-12 pq-12">
-        <i class="fab fa-whatsapp"></i> | <i class="fas fa-phone-alt"></i> 11 5573-2096 <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;<i class="far fa-envelope"></i>&nbsp;&nbsp;<i class="fab fa-facebook-square"></i>&nbsp;&nbsp;<i class="fab fa-instagram"></i>&nbsp;&nbsp;<i class="fab fa-linkedin"></i>
+        <!-- <i class="fab fa-whatsapp"></i> |  -->
+        <i class="fas fa-phone-alt"></i> 11 5573-2096 
+        <!-- <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;
+        <i class="far fa-envelope"></i>&nbsp;&nbsp;
+        <i class="fab fa-facebook-square"></i>&nbsp;&nbsp;
+        <i class="fab fa-instagram"></i>&nbsp;&nbsp;
+        <i class="fab fa-linkedin"></i> -->
         </div>
     </div>
 </div>

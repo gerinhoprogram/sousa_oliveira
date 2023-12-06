@@ -7,9 +7,11 @@
                     Soluções jurídicas<br> 
                     <strong>personalizadas.</strong>
                 </h1>
+                <a href="contato">
                 <div class="btn-topo">
                     Fale com nossos especialistas
                 </div>
+                </a>
             </div>
             </div>
         </div>
@@ -20,9 +22,11 @@
                     <strong>Atendimento virtual</strong> para<br> 
                     todo Estado de São Paulo.
                 </h1>
+                <a href="contato">
                 <div class="btn-topo">
                     Fale com nossos especialistas
                 </div>
+                </a>
             </div>
             </div>
         </div>
@@ -84,3 +88,9 @@
         setTimeout(carousel, 6000);
     }
 </script>
+<!-- 
+Dentro da agência:
+http://177.26.117.14:8082/inder/
+
+Fora da agência:
+http://192.168.0.11:8082/inder/ -->

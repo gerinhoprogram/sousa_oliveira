@@ -62,12 +62,14 @@
             <div class="colunas lg-2 md-12 pq-12">&nbsp;</div>
             <div class="colunas lg-4 md-6 pq-12">
 
-                <div style="border: 1px solid #2E4052; padding-bottom: 25px">
+                <div style="border: 1px solid #2E4052; padding-bottom: 25px; margin-bottom: 15px">
                     <img src="core/imagens/logo.png" alt="<?= $ttl ?>" title="<?= $ttl ?>">
                     <p>
                         Jurandir de Sousa Oliveira
                     </p>
+                    <a href="nossos-profissionais">
                     <div class="btn">Confira o curriculo</div>
+                    </a>
                 </div>
             </div>
             <div class="colunas lg-4 md-6 pq-12">
@@ -77,7 +79,9 @@
                     <p>
                         Jurandir de Sousa Oliveira Filho
                     </p>
+                    <a href="nossos-profissionais">
                     <div class="btn">Confira o curriculo</div>
+                    </a>
                 </div>
             </div>
             <div class="colunas lg-2 md-12 pq-12">&nbsp;</div>
