@@ -15,18 +15,9 @@
 
     $nome = strip_tags($_POST['nome']);
     $telefone = $_POST['telefone'];
+	$whatsapp = $_POST['whatsapp'];
     $email = $_POST['email'];
-    $mensagem = strip_tags($_POST['assunto']);
-
-    // $sql = "INSERT INTO formulario_contato (contato_email, contato_nome, contato_telefone, contato_mensagem, contato_assunto, contato_data) VALUES (:contato_email, :contato_nome, :contato_telefone, :contato_mensagem, :contato_assunto, :contato_data)";
-	// $stmt = $PDO->prepare($sql);
-	// $stmt->bindValue(':contato_email', $email);
-	// $stmt->bindValue(':contato_nome', $nome);
-	// $stmt->bindValue(':contato_telefone', $telefone);
-    // $stmt->bindValue(':contato_mensagem', $mensagem);
-    // $stmt->bindValue(':contato_assunto', $assunto);
-	// $stmt->bindValue(':contato_data', $data);
-	// $stmt->execute();
+    $mensagem = strip_tags($_POST['mensagem']);
 
 	// Inclui o foto_sugestao class.phpmailer.php localizado na pasta phpmailer
 	require("core/mod_includes/php/phpmailer/class.phpmailer.php");
@@ -37,20 +28,20 @@
 	// Define os dados do servidor e tipo de conexão
 	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 	$mail->IsSMTP();
-	$mail->Host = "mail.mogicomp.com.br"; // Endereço do servidor SMTP (caso queira utilizar a autenticação, utilize o host smtp.seudomínio.com.br)
+	$mail->Host = "mail.sousaoliveiraadv.com.br/"; // Endereço do servidor SMTP (caso queira utilizar a autenticação, utilize o host smtp.seudomínio.com.br)
 	$mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
-	$mail->Username = 'autenticacao@mogicomp.com.br'; // Usuário do servidor SMTP
-	$mail->Password = 'info2012mogi'; // Senha do servidor SMTP
+	$mail->Username = 'autenticacao@sousaoliveiraadv.com.br'; // Usuário do servidor SMTP
+	$mail->Password = '3p3wf]@KrsDEd}<'; // Senha do servidor SMTP
 	
 	// Define o remetente
 	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	$mail->From = "$email"; // Seu e-mail
-	$mail->Sender = "autenticacao@mogicomp.com.br"; // Seu e-mail
-	$mail->FromName = $nome; // Seu nome
+	$mail->From = "sousaoliveiraadv@uol.com.br"; // Seu e-mail
+	$mail->Sender = "autenticacao@sousaoliveiraadv.com.br"; // Seu e-mail
+	$mail->FromName = 'sousaoliveiraadv@uol.com.br'; // Seu nome
 	
 	// Define os destinatário(s)
 	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-	$mail->AddCC('contato@abreuempresarial.com.br');
+	$mail->AddCC("$email");
 
 	// Define os dados técnicos da Mensagem
 	// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -91,10 +82,10 @@
 							</tr>
 							<tr>
 								<td align='right'>
-									<b>Telefone:</b>
+									<b>Tel/whats:</b>
 								</td>
 								<td align='left'>
-									$telefone
+									$telefone / $whatsapp
 								</td>
 							</tr>
 							<tr>

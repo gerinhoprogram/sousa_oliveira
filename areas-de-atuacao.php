@@ -86,7 +86,7 @@
 
                             <div class="colunas lg-6 md-6 pq-12" style="margin-bottom: 50px">
                                     <div class="colunas lg-6 md-12">
-                                        <img src="core/imagens/servicos/direito_civil.webp"  alt="">
+                                        <img src="core/imagens/servicos/Direito_Civil.webp"  alt="">
                                         <h3>Direito Civil</h3>
                                     </div>
                                     <div class="colunas lg-6">
@@ -103,7 +103,7 @@
                             <div class="colunas lg-6 md-6 pq-12">
                             
                                 <div class="colunas lg-6 md-12">
-                                    <img src="core/imagens/servicos/direito_penal.webp" alt="">
+                                    <img src="core/imagens/servicos/Direito_Penal.webp" alt="">
                                     <h3>Direito Penal</h3>
                                 </div>
                                 <div class="colunas lg-6">
@@ -124,7 +124,7 @@
                         <div class="colunas lg-6 md-6 pq-12" style="margin-bottom: 50px">
                               
                                     <div class="colunas lg-6 md-12">
-                                        <img src="core/imagens/servicos/direito_empresarial.webp"  alt="">
+                                        <img src="core/imagens/servicos/Direito_Empresarial.webp"  alt="">
                                         <h3>Direito Empresarial</h3>
                                     </div>
                                     <div class="colunas lg-6">
@@ -161,7 +161,7 @@
                         <div class="colunas lg-6 md-6 pq-12" style="float: left">
                             
                                 <div class="colunas lg-6 md-12">
-                                    <img src="core/imagens/servicos/outras_areas.webp" alt="">
+                                    <img src="core/imagens/servicos/Outras_Areas.webp" alt="">
                                     <h3>Outras Áreas</h3>
                                 </div>
                                 <div class="colunas lg-6">

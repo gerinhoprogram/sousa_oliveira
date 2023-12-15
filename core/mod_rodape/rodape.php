@@ -55,7 +55,7 @@
             
         </div> -->
         <div class="colunas lg-4 md-12 pq-12" style="text-align: center;">
-        <img src="core/imagens/logo.png" alt="Abreu Contabilidade" title="Abreu Contabilidade" style="object-fit: contain; height: 200px; width: 100%">
+        <img src="core/imagens/logo.png" alt="<?=$ttl?>" title="<?=$ttl?>" style="object-fit: contain; height: 200px; width: 100%">
         </div>
     </div>
     

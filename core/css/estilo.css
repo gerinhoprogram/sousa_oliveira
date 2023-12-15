@@ -264,12 +264,12 @@ textarea:focus {
 }
 
 .b1 {
-    background-image: url(../imagens/banner1.png);
+    background-image: url(../imagens/banner1.webp);
     background-position: center
 }
 
 .b2 {
-    background-image: url(../imagens/banner2.png);
+    background-image: url(../imagens/banner2.webp);
     background-position: left;
 }
 

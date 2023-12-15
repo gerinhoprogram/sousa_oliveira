@@ -11,7 +11,7 @@
             </h4>
             <p>Preencha os campos abaixo.</p>
         </div>
-        <form action="envia-contato" method="post" class="formulario">
+        <form action="envia-contato" method="post" class="formulario" autocomplete="TRUE">
             <div class="colunas lg-12 md-12 pq-12">
                 <label for="nome">*Nome:</label>
                 <input type="text" name="nome" id="nome" maxlength="60" title="Digite seu nome" required>
@@ -21,8 +21,8 @@
                 <input type="text" name="telefone" id="telefone" title="Digite seu telefone" onkeypress='return mascaraTELEFONE(this);' maxlength="15">
             </div>
             <div class="colunas lg-6 md-6 pq-12 pr">
-                <label for="telefone">Whatsapp:</label>
-                <input type="text" name="telefone" id="telefone" title="Digite seu telefone" onkeypress='return mascaraTELEFONE(this);' maxlength="15">
+                <label for="whatsapp">Whatsapp:</label>
+                <input type="text" name="whatsapp" id="whatsapp" title="Digite seu whatsapp" onkeypress='return mascaraTELEFONE(this);' maxlength="15">
             </div>
             <div class="colunas lg-12 md-12 pq-12 pl">
                 <label for="email">*E-mail:</label>
@@ -30,10 +30,10 @@
             </div>
             <div class="colunas lg-12 md-12 pq-12 pr">
                 <label for="mensagem">Mensagem:</label>
-                <textarea name="assunto" id="assunto" title="Digite sua mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem" title="Digite sua mensagem"></textarea>
             </div>
             <div class="colunas lg-12 md-12 pq-12 pl">
-                <label for="">&nbsp;</label>
+                
                 <button type="submit" title="Enviar">Mandar mensagem</button>
             </div>
         </form>

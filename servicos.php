@@ -1,4 +1,4 @@
-<section style="background-image: url('core/imagens/banner-areas.png'); background-size: cover; padding-top: 50px; padding-bottom: 70px; margin-top:50px">
+<section style="background-image: url('core/imagens/banner-areas.webp'); background-size: cover; padding-top: 50px; padding-bottom: 70px; margin-top:50px">
         <h3 style="text-align: center; font-size: 30pt; line-height: 32pt; color: #fff; margin-bottom: 100px">EM QUAL ÁREA DE ATUAÇÃO<BR>NÓS PODEMOS TE AJUDAR?</h3>
             <div class="linha">
 

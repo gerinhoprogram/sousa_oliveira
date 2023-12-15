@@ -37,4 +37,30 @@ $base = "http://".$_SERVER['HTTP_HOST'].'/';
 <link rel="shortcut icon" href="<?=$base?>core/imagens/favicon.png">
 
 <script src="https://kit.fontawesome.com/650f618ca2.js" crossorigin="anonymous"></script>
-<script src="<?=$base?>core/mod_includes/js/movimento-seta.js"></script>
+
+<script>
+    /// INICIO MASCARA TELEFONE ///
+function mascara(o,f){
+    v_obj=o
+    v_fun=f
+    setTimeout("execmascara()",1)
+}
+function execmascara(){
+    v_obj.value=v_fun(v_obj.value)
+}
+function mtel(v){
+    v=v.replace(/\D/g,"");             //Remove tudo o que não é dígito
+    v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+    v=v.replace(/(\d)(\d{4})$/,"$1-$2");    //Coloca hífen entre o quarto e o quinto dígitos
+    return v;
+}
+function id( el ){
+	return document.getElementById( el );
+}
+function mascaraTELEFONE(campo)
+{		
+	mascara( campo, mtel );
+}
+
+/// FIM MASCARA TELEFONE ///
+</script>
