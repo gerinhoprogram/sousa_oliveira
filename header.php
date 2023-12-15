@@ -1,6 +1,6 @@
 <?php 
 $ttl = 'Sousa Oliveira';
-$base = "http://".$_SERVER['HTTP_HOST']."/sousa_oliveira/";
+$base = "http://".$_SERVER['HTTP_HOST'].'/';
 
 ?>
 <base href='<?=$base?>' />
@@ -14,14 +14,16 @@ $base = "http://".$_SERVER['HTTP_HOST']."/sousa_oliveira/";
 <meta property="og:locale" content="pt_BR" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="<?=$ttl?>" />
-<meta property="og:description" content="" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="">
+<meta property="og:description" content="Somos um escritório com mais de 30 anos, fundado pelo doutor Jurandir de Sousa Oliveira para seus 3 filhos. Contamos com diversos especialistas na prática do Direito, focados em Direito Civil, Direito Penal, Direito Empresarial, estendendo consultorias para outras áreas.
+" />
+<meta property="og:url" content="http://sousaoliveiraadv.com.br/" />
+<meta property="og:image" content="http://sousaoliveiraadv.com.br/core/imagens/favicon.png">
 <meta name="copyright" content="MogiComp Soluções Web">
 <meta name="robots" content="">
 <meta name="revisit-after" content="1 day">
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="Somos um escritório com mais de 30 anos, fundado pelo doutor Jurandir de Sousa Oliveira para seus 3 filhos. Contamos com diversos especialistas na prática do Direito, focados em Direito Civil, Direito Penal, Direito Empresarial, estendendo consultorias para outras áreas.
+">
+<meta name="keywords" content="advocacia, Direito Civil, Direito Penal, Direito Empresarial, Falência e Recuperação Judicial, advogados, reorganização financeira da empresa, mundos dos negócios, sociedada, estado">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,12 +35,6 @@ $base = "http://".$_SERVER['HTTP_HOST']."/sousa_oliveira/";
 
 <!-- OUTROS LINKS -->
 <link rel="shortcut icon" href="<?=$base?>core/imagens/favicon.png">
-<!-- <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> -->
+
 <script src="https://kit.fontawesome.com/650f618ca2.js" crossorigin="anonymous"></script>
 <script src="<?=$base?>core/mod_includes/js/movimento-seta.js"></script>
-
-    <!-- <div class="wp">
-        <a href="https://api.whatsapp.com/send?phone=5511951702971&text=Abreu Contabilidade" onclick="gtag('event','Click', {'event_category':'WhatsAppMe','event_label':'Whatsapp','value':0});" target="_blank" rel="noopener noreferrer">
-            <img src="<?=$base?>core/imagens/wp.png" alt="11 95170-2971" title="11 95170-2971">
-        </a>
-    </div> -->

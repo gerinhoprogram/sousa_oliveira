@@ -14,8 +14,8 @@
 <div class="linha-azul">
     <div class="linha">
         <div class="colunas lg-2 md-3 pq-12 logo">
-            <a href="home" target="_parent" title="Sousa Oliveira">
-                <img src="core/imagens/logo.png" alt="Sousa Oliveira" title="Sousa Oliveira" width="90">
+            <a href="home" target="_parent" title="<?=$ttl?>">
+                <img src="core/imagens/logo.png" alt="<?=$ttl?>" title="<?=$ttl?>" width="90">
             </a>
         </div>
         <div class="colunas lg-10 md-9 pq-12" style="padding-right: 30px;">

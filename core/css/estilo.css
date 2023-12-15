@@ -403,35 +403,43 @@ textarea:focus {
 }
 
 .box:hover .direito-civil {
-    background-image: url(../imagens/direito-civil.png);
+    background-image: url(../imagens/direito-civil.webp);
 }
 
 .box .direito-civil {
-    background-image: url(../imagens/direito-civil-azul.png);
+    background-image: url(../imagens/direito-civil-azul.webp);
 }
 
 .box:hover .direito-penal {
-    background-image: url(../imagens/direito-penal.png);
+    background-image: url(../imagens/direito-penal.webp);
 }
 
 .box .direito-penal {
-    background-image: url(../imagens/direito-penal-azul.png);
+    background-image: url(../imagens/direito-penal-azul.webp);
 }
 
 .box:hover .direito-empresarial {
-    background-image: url(../imagens/direito-empresarial.png);
+    background-image: url(../imagens/direito-empresarial.webp);
 }
 
 .box .direito-empresarial {
-    background-image: url(../imagens/direito-empresarial-azul.png);
+    background-image: url(../imagens/direito-empresarial-azul.webp);
 }
 
 .box:hover .outras-areas {
-    background-image: url(../imagens/outras-areas.png);
+    background-image: url(../imagens/outras-areas.webp);
 }
 
 .box .outras-areas {
-    background-image: url(../imagens/outras-areas-azul.png);
+    background-image: url(../imagens/outras-areas-azul.webp);
+}
+
+.box:hover .falencia_recuperacao {
+    background-image: url(../imagens/recuperacao_falencia.webp);
+}
+
+.box .falencia_recuperacao {
+    background-image: url(../imagens/recuperacao_falencia_azul.webp);
 }
 
 .box p {

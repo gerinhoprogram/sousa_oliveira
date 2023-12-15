@@ -24,6 +24,7 @@
         <section class="section-form">
             <?php include('formulario.php') ?>
         </section>
+     
     </main>
 
     <?php include('core/mod_rodape/rodape.php') ?>

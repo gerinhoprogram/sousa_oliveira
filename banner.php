@@ -30,10 +30,6 @@
             </div>
             </div>
         </div>
-        
-        <!-- <div class="progress">
-            <div class="progress-bar"></div>
-        </div> -->
     </div>
 </div>
 
@@ -88,9 +84,3 @@
         setTimeout(carousel, 6000);
     }
 </script>
-<!-- 
-Dentro da agência:
-http://177.26.117.14:8082/inder/
-
-Fora da agência:
-http://192.168.0.11:8082/inder/ -->
